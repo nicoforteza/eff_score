@@ -1,7 +1,7 @@
 # Replication code
 
 This repository provides the code that produces the results of the paper ["A Score Function to Prioritize Editing in Household Survey Data: A Machine Learning Approach"](https://www.bde.es/wbe/es/publicaciones/analisis-economico-investigacion/documentos-trabajo/a-score-function-to-prioritize-editing-in-household-survey-data--a-machine-learning-approach.html), by Nicolás Forteza and Sandra García-Uribe.
-The file ```requirements.txt``` provides the list of packages needed for executing the code. It is divided in two parts:
+The file ```requirements.txt``` provides the list of packages required to execute the code. It is divided in two parts:
 
  - The file ```train.py``` provides the script for training the models. The structure of the input data is held under ```data``` in ```.csv``` format. 
  - The notebook ```paper.ipynb``` performs model evaluation, threshold selection and interpretability as documented in the paper.
